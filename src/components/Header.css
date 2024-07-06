@@ -162,6 +162,9 @@ header {
     align-items: self-start;
     max-width: 215px;
 }
+.dNone{
+    display: none;
+}
 
 .heading {
     font-size: 18px;
@@ -210,13 +213,15 @@ header {
 /* Mobile styles */
 @media (max-width: 768px) {
     .nav-links {
-        display: none;
         flex-direction: column;
         width: 100%;
+        padding-left: 12px;
         text-align: center;
-        background-color: #333;
+        background-color: white;
         position: absolute;
+        color: black;
         top: 60px;
+        text-align: left;
         left: 0;
     }
     .text-content {
@@ -305,6 +310,9 @@ header {
     .shadowCont{
         box-shadow: 4px 4px 14px 0px #122D351F;
         margin-inline: 0px;
+    }
+    .dNone{
+        display: none;
     }
     .middleSubBox img{
         order: -1;
